@@ -36,6 +36,7 @@ O programa ***get_information*** vai percorrer todos os link's salvo do arquivo 
 </ul>
 
 Em seguida vai salvar os dados no arquivo *information.csv*
+
 ----
 
 ## Analisando os dados coletados
@@ -50,7 +51,7 @@ O programa ***data_analysis*** vai ler o arquivo *information.csv* e obter algum
     <li> Os artigos mais citados </li>
 </ul>
 
----
+----
 
 ## Bibliotecas utilizadas
 <ul>
