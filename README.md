@@ -2,7 +2,7 @@
 
 Resumo:
     
-    Faz a raspagem de algumas informações referente ao tema de busca do site e em seguida analisa esses dados.
+   Faz a raspagem de algumas informações referente ao tema de busca do [site](http://apps.webofknowledge.com/WOS_GeneralSearch_input.do?product=WOS&search_mode=GeneralSearch&SID=8CdNfe41ErEsAyrKeAG&preferencesSaved=) e em seguida analisa esses dados.
 
 ----
 
@@ -17,13 +17,13 @@ O programa está dividido em três etapas:
 
 ## Raspando os links:
 
-O programa ***get_links*** acessa o site e insere o termo de busca (váriavel busc). Em seguida obtém todas as url's dos artigos  referente ao termo de busca e salva em um arquivo com nome *link.csv*.
+O programa ***get_links*** acessa o [site](http://apps.webofknowledge.com/WOS_GeneralSearch_input.do?product=WOS&search_mode=GeneralSearch&SID=8CdNfe41ErEsAyrKeAG&preferencesSaved=) e insere o termo de busca com a string da váriavel ***busc***. Em seguida obtém todas as url's dos artigos referente ao termo de busca e salva em um arquivo com nome *link.csv*.
 
 ----
 
 ## Raspando algumas informações
 
-O programa ***get_information*** vai percorrer todos os link's salvo do arquivo *link.csv* e raspas as seguintes informações:
+O programa ***get_information*** vai percorrer todos os link's salvo do arquivo *link.csv* e raspar as seguintes informações:
 
 <ul>
     <li>Titulo</li>
